@@ -8,5 +8,6 @@ if(year%4==0)
   printf("%d is Leap year",year);
 else
   printf("%d is Not a Leap year",year);
+  lkl
 
 }
