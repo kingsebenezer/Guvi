@@ -16,7 +16,7 @@ int main()
 
     
     if (l || u)
-        printf("Vowel.");
+        printf("Vowel");
     else
         printf("Consonant");
     return 0;
