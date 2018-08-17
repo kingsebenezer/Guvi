@@ -4,8 +4,7 @@ int main()
    int a[100],i,value,count=0,e=0;
    long int n;
    scanf("%ld",&n);
-   if(n>=1&&n<=100000)
-   {
+  
    for(i=0;i<n;i++)
    {
      scanf("%d",&a[i]);
@@ -29,8 +28,6 @@ int main()
          printf("%d ",value); 
       }        
    }
-  }
-  else
-  printf("Invalid Input");
+
   return 0;
 }
